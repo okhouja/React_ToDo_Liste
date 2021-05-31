@@ -1,38 +1,14 @@
-// Body Setup
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: lightgray;
-}
-// Text input
+//Vendor
+@import "./vendor/_vendor-dir";
 
-.inputstyle {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-input[type="text"] {
-  border: none;
-  width: 15rem;
-  height: 1.5rem;
-}
-input[type="submit"] {
-  border: none;
-  background-color: rosybrown;
-  width: 2.9rem;
-  height: 1.8rem;
-  font-size: 1rem;
-}
-// Every other list item
-li:nth-child(2n) {
-  background-color: gray;
-}
-// To remove style from list
-li {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  height: 1.5rem;
-  margin: 1% auto;
-}
+//Abstracts
+@import "./abstracts/_abstracts-dir";
+
+//Base Styles
+@import "./base/_base-dir";
+
+//Components
+@import "./components/_components-dir";
+
+//Layout
+@import "./layouts/_layouts-dir";
