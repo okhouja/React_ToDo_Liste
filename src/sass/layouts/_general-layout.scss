@@ -3,10 +3,14 @@
 .inputstyle {
   @include flex-center;
 }
+h1 {
+  font-family: Indie Flower;
+}
 input[type="text"] {
   border: none;
   width: 18rem;
   height: 1.8rem;
+  font-size: 1.1rem;
 }
 input[type="submit"] {
   border: none;
@@ -30,6 +34,8 @@ li {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  // width: 80%;
   height: 1.5rem;
+
   margin: 1% auto;
 }
